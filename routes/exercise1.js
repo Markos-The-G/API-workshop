@@ -9,7 +9,7 @@ var router = express.Router();
  */
 const favouriteSort = randomNumberArray => {
 
-    return randomNumberArray.sort()
+    return randomNumberArray
 }
 
 router.get('/', (req, res, next) => {
